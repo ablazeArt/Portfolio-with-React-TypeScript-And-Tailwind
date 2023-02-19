@@ -8,7 +8,7 @@ interface ContactProps {
 
 const Contact = ({changeOnSection, changeOutSection}: ContactProps) => {
     return (
-        <section id="contact" className="pb-6" onMouseOver={() =>changeOnSection('contact')} onMouseOut={() =>changeOutSection('contact')} onTouchMove={() => changeOnSection('contact')}>
+        <section id="contact" className="pb-6" onMouseOver={() =>changeOnSection('contact')} onMouseOut={() =>changeOutSection('contact')} onTouchMove={() => changeOnSection('contact')} data-aos="flip-down" data-aos-duration="2000">
         <div>
           <h3 className="text-3xl py-1 dark:text-white ">Contact</h3>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I can be reached anytime via all of these methods.</p>

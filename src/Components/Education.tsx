@@ -9,7 +9,7 @@ interface EducationProps {
 
 const Education = ({ changeOnSection, changeOutSection }: EducationProps) => {
   return (
-    <section id="education" className="mb-6" onMouseOver={() => changeOnSection("education")} onMouseOut={() => changeOutSection("education")} onTouchMove={() => changeOnSection('education')}> 
+    <section id="education" className="mb-6" onMouseOver={() => changeOnSection("education")} onMouseOut={() => changeOutSection("education")} onTouchMove={() => changeOnSection('education')} data-aos="flip-up" data-aos-duration="2000"> 
       <div>
         <h3 className="text-3xl py-1 dark:text-white">Education</h3>
         <div className="flex mt-2">

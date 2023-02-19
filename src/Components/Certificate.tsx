@@ -8,7 +8,7 @@ interface CerificateProps {
 
 const Certificate = ({ changeOnSection, changeOutSection }: CerificateProps) => {
   return (
-    <section id="certificate" onMouseOver={() => changeOnSection('certificate')} onMouseOut={() => changeOutSection('certificate')} onTouchMove={() => changeOnSection('certificate')}>
+    <section id="certificate" onMouseOver={() => changeOnSection("certificate")} onMouseOut={() => changeOutSection("certificate")} onTouchMove={() => changeOnSection("certificate")} data-aos="fade-up-left" data-aos-duration="1500">
       <div>
         <h3 className="text-3xl py-1 dark:text-white ">Certificate</h3>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -43,7 +43,7 @@ const Certificate = ({ changeOnSection, changeOutSection }: CerificateProps) => 
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
           <div className="basis-1/3 flex-1 text-center md:mb-14 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             <h1 className="dark:text-white mb-2 text-xl">CS50 From Havard</h1>
-            <img className="rounded-lg object-cover" style={{ width: "100%", height: "100%", objectFit: "cover" }} src={cer1} />
+            <img className="rounded-lg object-cover" style={{ width: "100%", height: "100%", objectFit: "cover" }} src={cer1} data-aos="zoom-in" data-aos-duration="2000"/>
             <div>
               <button className="dark:text-white mt-4 m mr-14 bg-sky-600 rounded-lg px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-sky-400">
                 <a href="https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0">Course</a>
@@ -55,7 +55,7 @@ const Certificate = ({ changeOnSection, changeOutSection }: CerificateProps) => 
           </div>
           <div className="basis-1/3 flex-1 text-center md:mb-14 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             <h1 className="dark:text-white mb-2 text-xl">Web Development Bootcamp</h1>
-            <img className="rounded-lg object-cover" style={{ width: "100%", height: "100%", objectFit: "cover" }} src={cer2} />
+            <img className="rounded-lg object-cover" style={{ width: "100%", height: "100%", objectFit: "cover" }} src={cer2} data-aos="zoom-in" data-aos-duration="2000"/>
             <button className="dark:text-white mt-4 m mr-14 bg-sky-600 rounded-lg px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-sky-400">
               <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_77879424134_._ad_535397245863_._kw__._de_c_._dm__._pl__._ti_dsa-1007766171312_._li_1012728_._pd__._&matchtype=&gclid=EAIaIQobChMIjLWq7vaZ_QIVN5NmAh2RgQ5ZEAAYASAAEgJX1_D_BwE">Course</a>
             </button>

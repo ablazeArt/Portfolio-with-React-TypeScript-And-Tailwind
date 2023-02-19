@@ -10,7 +10,7 @@ interface AboutProps {
 
 const About = ({changeOnSection, changeOutSection}: AboutProps) => {
   return (
-    <section id="about">
+    <section id="about" data-aos="zoom-in-down" data-aos-duration="2000">
       <div className="text-center p-10 py-10 mt-14 md:mt-16" onMouseOver={() => changeOnSection('about')} onMouseOut={() => changeOutSection('about')} onTouchMove={() => changeOnSection('about')}>
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
           <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 relative overflow-hidden mt-0 md:h-96 md:w-96 sm:h-80 sm:w-80">
