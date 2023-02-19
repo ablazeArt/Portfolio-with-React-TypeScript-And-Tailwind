@@ -18,7 +18,7 @@ const Services = ({changeOnSection, changeOutSection}: ServicesProps) => {
         </p>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I would love to collaborate with talented individuals to create elegant and user-friendly websites that can benefit people.</p>
       </div>
-      <div className="lg:flex gap-10" data-aos="flip-left" data-aos-duration="2500">
+      <div className="lg:flex gap-10" data-aos="fade-down-right" data-aos-duration="2000">
         <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
           <img className="mx-auto" src={frontEnd} width={100} height={100} />
           <h3 className="text-lg font-medium pt-8 pb-2  ">Front-end Skills</h3>
