@@ -19,7 +19,7 @@ const Services = ({changeOnSection, changeOutSection}: ServicesProps) => {
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">I would love to collaborate with talented individuals to create elegant and user-friendly websites that can benefit people.</p>
       </div>
       <div className="lg:flex gap-10">
-        <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+        <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
           <img className="mx-auto" src={design} width={100} height={100} />
           <h3 className="text-lg font-medium pt-8 pb-2  ">Front-end Skills</h3>
           <p className="py-2">creating custom, beautiful web designs that follow core design principles and are responsive on all devices.</p>
@@ -33,7 +33,7 @@ const Services = ({changeOnSection, changeOutSection}: ServicesProps) => {
           <p className="text-gray-800 py-1">TailwindCSS</p>
           <p className="text-gray-800 py-1">RESTful API</p>
         </div>
-        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
           <img className="mx-auto" src={code} width={100} height={100} />
           <h3 className="text-lg font-medium pt-8 pb-2 ">Back-end Skills</h3>
           <p className="py-2">Design the server-side code and database architecture to ensure optimal performance and meet the functional requirements of the web application.</p>
@@ -46,7 +46,7 @@ const Services = ({changeOnSection, changeOutSection}: ServicesProps) => {
           <p className="text-gray-800 py-1">python</p>
           <p className="text-gray-800 py-1">Flask</p>
         </div>
-        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+        <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
           <img className="mx-auto" src={consulting} width={100} height={100} />
           <h3 className="text-lg font-medium pt-8 pb-2 ">Tools</h3>
           <p className="py-2">I possess strong communication skills and proficiency in collaboration tools, allowing for streamlined teamwork and effective collaboration.</p>
