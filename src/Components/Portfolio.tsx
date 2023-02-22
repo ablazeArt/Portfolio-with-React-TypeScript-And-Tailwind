@@ -71,7 +71,7 @@ const Portfolio = ({changeOnSection, changeOutSection}: PortfolioProps) => {
           <img className="rounded-lg object-cover" style={{ width: "100%", height: "100%", objectFit: "cover" }} src={web1} data-aos="fade-right" data-aos-duration="2000"/>
           <div>
             <button className="dark:text-white mt-4 m mr-14 bg-sky-600 rounded-lg px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-sky-400">
-              <a href="https://youtu.be/z4XKNoPvED4">Demo Video</a>
+              <a href="https://www.youtube.com/watch?v=xQnmoYagTaM">Demo Video</a>
             </button>
             <button className="dark:text-white bg-lime-600 rounded-lg px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-lime-400">
               <a href="https://github.com/ablazeArt/SmartControl.git">Code</a>
