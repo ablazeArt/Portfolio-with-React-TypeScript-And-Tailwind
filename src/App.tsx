@@ -1,7 +1,5 @@
 import { useState } from "react";
 import "../styles/globals.css";
-import { BsFillMoonStarsFill } from "react-icons/bs";
-import { Navbar, Button } from "flowbite-react";
 import Services from "./Components/Service";
 import Portfolio from "./Components/Portfolio";
 import Certificate from "./Components/Certificate";
